@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --field-font-size: 24px;
+    --btn-border-radius: 10px;
+    --input-border-radius: 5px;
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+
+}
+
+
+
+#userLogin {
+    width: 100%;
+    height: 100vh;
+    min-height: 850px;
+    background-color: #F5F5F5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#userLogin .login-container {
+    width: 622px;
+    height: 793px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+
+    padding: 3rem;
+}
+
+#userLogin .header {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+#userLogin .header>h1 {
+    font-size: 40px;
+}
+
+#userLogin .header .icon {
+    font-size: 40px;
+}
+
+#userLogin .form-container {
+    width: 100%;
+
+}
+
+#userLogin .form-container .row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+#userLogin .field-name {
+    font-size: 24px;
+    font-weight: 500;
+}
+#userLogin .input {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: var(--input-border-radius);
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+#userLogin .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+#userLogin button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: var(--btn-border-radius);
+    cursor: pointer;
+
+}
+#userLogin .login-btn {
+    background-color: #266ACF;
+}
+#userLogin .cancel-btn {
+    background-color: #ACAFB0;
+}
+
